@@ -1,0 +1,56 @@
+#servicio{
+    padding: 4em 0;
+}
+
+#servicio p{
+    margin: 0;
+}
+
+#servicios .cta-servicios{
+    padding-top: 2em;
+}
+
+.servicio h2{
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+.icono-servicio{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    background: #f6f6f8;
+    border: solid 0.0625rem #d7dbe6;
+    margin: 0 auto;
+    display: block;
+    line-height: 10rem;
+    text-align: center;
+}
+
+.icono-servicio img{
+    vertical-align: middle;
+}
+
+footer{
+	width:100%;
+	height: 200px;
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+}
+
+footer p{
+	color: #f3f3f3;
+	text-align: center;
+	padding: 50px;
+	min-height: 100px;
+
+}
+ 
+#iconos {
+    font-size: 26px;
+    padding: 0 30px;
+	margin-top: 5px;
+    color: #f3f3f3;
+	text-align: right;
+}

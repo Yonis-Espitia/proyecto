@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="Stylesheet" type="text/css" href="contacto.css">
+</head>
+<body>
+	
+	<form action="enviar.php" method="post">
+        <h2>CONTACTO</h2>
+        <label for="nombre_apellido"><h3>NOMBRE:</h3></label>
+        <input name="nombre" type="text" placeholder="Escriba aquí sus nombres:" required><br>
+        
+        <LAbel for="correo_electronico"><h3>CORREO:</h3></LAbel>
+        <input name="correo" type="email" placeholder="Ingrese su correo electrónico:" required><br>
+        
+        <Label for="numero_celular"><h3>CELULAR:</h3></Label>
+        <input name="telefono" type="number" placeholder="Ingrese su numero de celular:" required><br>
+        
+        <LAbel for="mensaje"><h3>MENSAJE:</h3></LAbel>
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
+        <input type="reset" value="Limpiar formulario" id="boton">
+
+		
+	</form>
+	
+ 
+
+</body>
+</html>
